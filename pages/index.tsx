@@ -27,7 +27,7 @@ export default function Home({ posts }: Props) {
               <h1 className="text-6xl max-w-xl font-serif">
                 <span className="underline decoration-black decoration-4">Chronicles</span>{" "} is a place to write, read, and connect
               </h1>
-              <h2>It's easy and free to post your thinking on any topic and connect with millions of readers.</h2>
+              <h2>Easy and free to post your thinking on any topic and connect with millions of readers.</h2>
             </div>
           
             <img className="hidden md:inline-flex h-32 lg:px-4 lg:py-8 lg:h-full" src="/images/icon.svg" alt="icon"/>  

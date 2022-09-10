@@ -30,7 +30,7 @@ export default function Home({ posts }: Props) {
               <h2>Easy and free to post your thinking on any topic and connect with millions of readers.</h2>
             </div>
           
-            <img className="hidden md:inline-flex h-32 lg:px-4 lg:py-8 lg:h-full" src="/images/icon.svg" alt="icon"/>  
+            <img className="hidden md:inline-flex h-32 lg:px-4 lg:py-8 lg:h-full" src="https://i.imgur.com/9rbKCe0.png" alt="icon"/>  
             </div>
           </div>
         </div>

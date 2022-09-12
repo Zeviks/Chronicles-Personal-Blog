@@ -13,7 +13,6 @@ const Header = () => {
           <Link href="https://www.natepacheco.dev/#contact"><a className="hover:text-slate-800 transition-all">Contact</a></Link>
           <Link href="https://www.natepacheco.dev/#projects"><a className="text-white bg-fontColor px-4 py-1 rounded-full transition-all">Portfolio</a></Link>
         </div>
-
     </header>
   )
 }

@@ -25,14 +25,12 @@ export default function Home({ posts }: Props) {
         </div>
         
         <div className="max-w-7xl mx-auto">
-          <div className="flex justify-between items-center  py-10 lg:py-0">
-            <div className="px-10 space-y-5">
-              <h1 className="text-6xl max-w-xl font-serif">
-                <span className="underline decoration-black decoration-4">Chronicles</span>{" "} is a place to write, read, and connect
-              </h1>
-              <h2>Easy and free to post your thinking on any topic and connect with millions of readers.</h2>
+          <div className="flex justify-between items-center py-10 lg:py-0">
+            <div className="px-10 space-y-8">
+              <h1 className="text-7xl text-fontColor max-w-xl font-thin font-serif">My Chronicles.</h1>
+              <h2 className="text-xl text-fontColor max-w-xl">Personal journal. Chronicle is a collection of all of my projects that I document from design, development and production.</h2>
+              <Link href="/"><a className="block text-white bg-fontColor hover:bg-slate-800 px-6 py-3 font-medium rounded-full transition-all max-w-xl w-fit">Read Latest Article</a></Link>
             </div>
-          
             <img className="hidden md:inline-flex h-32 lg:px-4 lg:py-8 lg:h-full" src="https://i.imgur.com/9rbKCe0.png" alt="icon"/>  
             </div>
           </div>

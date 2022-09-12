@@ -7,17 +7,13 @@ const Header = () => {
         <Link href="/">
           <img className="w-44 object-contain cursor-pointer" src="/images/logo.svg" alt="Logo" />
         </Link>
+      </div>
         <div className="hidden md:inline-flex items-center space-x-5">
-          <h3>About</h3>
-          <h3>Contact</h3>
-          <h3 className="text-white bg-fontColor px-4 py-1 rounded-full">Portfolio</h3>
+          <Link href="https://www.natepacheco.dev/#about"><a className="hover:text-white transition-all">About</a></Link>
+          <Link href="https://www.natepacheco.dev/#contact"><a className="hover:text-white transition-all">Contact</a></Link>
+          <Link href="https://www.natepacheco.dev/#projects"><a className="text-white bg-fontColor hover:bg-slate-800 px-4 py-1 rounded-full transition-all">Portfolio</a></Link>
         </div>
-      </div>
 
-      <div className="flex items-center space-x-5 text-fontColor">
-        <h3>Sign In</h3>
-        <h3 className="border px-4 py-1 rounded-full border-fontColor">Get Started</h3>
-      </div>
     </header>
   )
 }

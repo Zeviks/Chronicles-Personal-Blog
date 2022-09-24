@@ -12,7 +12,7 @@ interface Props {
 export default function Home({ posts }: Props) {
   return (
     <div>
-        <div className='bg-gradient-to-r from-primary to-secondary'>
+        <div className='bg-cover bg-center bg-fixed bg-[url(https://i.imgur.com/6JieORA.jpg)]'>
          
             <Head>
               <title>Chronicles - Personal Blog Site</title>
@@ -20,18 +20,18 @@ export default function Home({ posts }: Props) {
               <link rel="icon" href="/favicon.ico" />
             </Head>
 
-        <div className="border-b border-fontColor">
+        <div className="border-b border-white">
           <Header />
         </div>
         
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-center py-10 lg:py-0">
             <div className="px-10 space-y-8">
-              <h1 className="text-7xl text-fontColor max-w-xl font-thin font-serif">My Chronicles.</h1>
-              <h2 className="text-xl text-fontColor max-w-xl">Personal journal. Chronicle is a collection of all of my projects that I document from design, development and production.</h2>
-              <Link href="/"><a className="block text-white bg-fontColor hover:bg-slate-800 px-6 py-3 font-medium rounded-full transition-all max-w-xl w-fit">Read Latest Article</a></Link>
+              <h1 className="text-7xl text-white max-w-xl font-thin font-serif">My Chronicles.</h1>
+              <h2 className="text-xl text-white max-w-xl">Personal journal. Chronicle is a collection of all of my projects that I document from design, development and production.</h2>
+              <Link href="/"><a className="block text-fontColor bg-white hover:text-white hover:bg-slate-800 px-6 py-3 font-medium rounded-full transition-all max-w-xl w-fit">Read Latest Article</a></Link>
             </div>
-            <img className="hidden md:inline-flex h-32 lg:px-4 lg:py-8 lg:h-full" src="https://i.imgur.com/9rbKCe0.png" alt="icon"/>  
+            <img className="hidden md:inline-flex h-32 lg:px-4 lg:py-8 lg:h-full" src="https://i.imgur.com/Y3VF6fA.png" alt="icon"/>  
             </div>
           </div>
         </div>

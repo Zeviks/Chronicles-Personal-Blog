@@ -28,7 +28,7 @@ export default function Home({ posts }: Props) {
           <div className="flex justify-between items-center py-10 lg:py-0">
             <div className="px-10 space-y-8">
               <h1 className="text-7xl text-white max-w-xl font-thin font-serif">My Chronicles.</h1>
-              <h2 className="text-xl text-white max-w-xl">Personal journal. Chronicle is a collection of all of my projects that I document from design, development and production.</h2>
+              <h2 className="text-xl text-white max-w-xl">Personal journal. Chronicle is a collection of all of my projects that I document from design, development and production. And interesting articles aswell.</h2>
               <Link href="/"><a className="block text-fontColor bg-white hover:text-white hover:bg-slate-800 px-6 py-3 font-medium rounded-full transition-all max-w-xl w-fit">Read Latest Article</a></Link>
             </div>
             <img className="hidden md:inline-flex h-32 lg:px-4 lg:py-8 lg:h-full" src="https://i.imgur.com/Y3VF6fA.png" alt="icon"/>  

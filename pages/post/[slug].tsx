@@ -41,8 +41,11 @@ function Post({ post }: Props) {
 
 
   return <main>
+    <div className="bg-[#161F30]">
       <Header />
-      <img className="w-full h-56 object-cover" src={urlFor(post.mainImage).url()!} alt=""/>
+    </div>
+
+      <img className="w-full h-56 object-cover" src={urlFor(post.mainImage).url()!} alt="" />
       <article className="max-w-3xl mx-auto p-5">
         <h1 className="text-3xl mt-10 mb-3">{post.title}</h1>
         <h2 className="text-xl font-light text-gray-500 mb-2">{post.description}</h2>
@@ -204,7 +207,7 @@ export const getStaticPaths = async () => {
          props: {
              post,
          }, 
-         revalidate: 60, // After 60 seconds It will update the old cache.
+         revalidate: 200, // After 60 seconds It will update the old cache.
          // This is all it needs to be added (This is known as ISR)
       }
  }

@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Modern Full Stack Blog Application Made with TypeScript, Sanity CMS, Next.js, Tailwind CSS, and use ISR
 
-## Getting Started
+Visit Project 🌎: https://chronicles-personal-blog.vercel.app/
 
-First, run the development server:
+A Fully responsive Modern Full Stack Blog application where you can create, edit and even manage comments on your posts. This is made easily possible thanks to Sanity CMS. Sanity provides the ability to create, manage, and store articles including comments as well. You can also manage your comments. Sanity does all of the dirty work of setting up a backend for us. Sanity can also be used on the go, so you can add or maintain your articles.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<img alt="Intro banner" src="https://user-images.githubusercontent.com/68613251/192088339-8f80d240-13bb-46ad-b2db-83a6e9cc4813.png"/>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Features ⚡ : 
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+✔ A Content Management System (Sanity CMS) to manage structured data
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+✔ Next.js : File-based routing, Data fetching that allows server-side rendering and static generation which makes the websites super quick. Also, I made use of Incremental Static Regeneration to speed up page loading & optimize the caching of pages!
 
-## Learn More
+✔ The use of TypeScipt to reduce bugs 
 
-To learn more about Next.js, take a look at the following resources:
+✔  An Awesome responsive UI made with Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<h2>Landing Page 📰</h2>
+<img alt="hero banner" src="https://user-images.githubusercontent.com/68613251/192088727-478f1932-5092-4389-8027-e42b20bd3fc0.png"/>
 
-## Deploy on Vercel
+<h2>Blog Post Page🎊</h2>
+<img alt="article" src="https://user-images.githubusercontent.com/68613251/192088762-90840330-7970-4404-ba80-8ec8172d23bf.png" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<h2>Comment Section</h2>
+<p>Users can leave comments, you can decide if you want to allow the comment in the CMS.</p>
+<img alt="comment" src="https://user-images.githubusercontent.com/68613251/192088797-c41a8580-7694-4149-bc8c-93e1f05ee3b3.png" />
+<p>Here's what it looks like when a user submits a comment</p>
+<img alt="submission" src="https://user-images.githubusercontent.com/68613251/192088815-24863b50-835f-4108-a8e9-799217dd8328.png" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2>Sanity Dashboard</h2>
+<p>This is the sanity CMS dashboard. You can create and manage articles including comments.</p>
+<img alt="sanity" src="https://user-images.githubusercontent.com/68613251/192088854-42667584-6770-442b-8bed-786a44b4673b.png" />
+
+Thank you for checking out my project, I have only demonstrated a taste of what sanity is capable of doing. Discovering this technology has taken my creativity to a whole new level. I can wait to see what I can make next. 
+
+Visit Project 🌎: https://chronicles-personal-blog.vercel.app/

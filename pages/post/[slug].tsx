@@ -207,7 +207,7 @@ export const getStaticPaths = async () => {
          props: {
              post,
          }, 
-         revalidate: 200, // After 60 seconds It will update the old cache.
+         revalidate: 500, // After 60 seconds It will update the old cache.
          // This is all it needs to be added (This is known as ISR)
       }
  }
